@@ -1,0 +1,62 @@
+/* ------------------------- обнуления ------------------------- */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	opacity: 0.2;
+	transition: 0.3s;
+}
+li{
+	list-style-type: none;
+}
+/* ------------------------- Подключение шрифта ------------------------- */
+@font-face {
+	font-family: RaleWay;
+	src: url(../fonts/Raleway-Regular.ttf);
+	font-weight: 400;
+}
+@font-face {
+	font-family: RaleWay;
+	src: url(../fonts/Raleway-Medium.ttf);
+	font-weight: 500;
+}
+@font-face {
+	font-family: RaleWay;
+	src: url(../fonts/Raleway-SemiBold.ttf);
+	font-weight: 600;
+}
+/* ------------------------- тело сайта ------------------------- */
+body{
+	overflow-y: hidden;
+	display: flex;
+	justify-content: center;
+	font-family: RaleWay;
+}
+/* ------------------------- первая секция, хедер ------------------------- */
+header{
+	width: 1633px;
+	height: 100px;
+	background-color: transparent;
+	padding: 0 200px;
+	display: flex;
+	align-items: center;
+}
+.headerNavUl{
+	display: flex;
+	margin-left: 30px;
+}
+.headerNavLi{
+	margin-left: 20px;
+}
+/* ------------------------- остальная первая секция ------------------------- */
+.Sec1{
+	width: 1633px;
+	height: 800px;
+	background: url(../images/sec1/gradient.png) no-repeat center center / cover;
+}
