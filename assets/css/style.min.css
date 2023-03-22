@@ -15,6 +15,9 @@ a:hover{
 li{
 	list-style-type: none;
 }
+section{
+	width: 1633px;
+}
 /* ------------------------- Подключение шрифта ------------------------- */
 @font-face {
 	font-family: RaleWay;
@@ -56,7 +59,11 @@ header{
 }
 /* ------------------------- остальная первая секция ------------------------- */
 .Sec1{
-	width: 1633px;
 	height: 800px;
 	background: url(../images/sec1/gradient.png) no-repeat center center / cover;
+}
+.Sec1div{
+	padding: 0 200px;
+	display: flex;
+
 }
